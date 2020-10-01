@@ -91,7 +91,7 @@ void subject::displaySub(){
     cout<<"Number of Students:"<<noOfStudents<<endl<<endl;
     cout<<"Index Number"<<"   "<<"Marks"<<"   "<<"Grade"<<endl<<endl;
     for(int j=0;j<noOfStudents;j++){
-        cout<<stdArray[j].stdId<<"        "<<stdArray[j].mark<<"      "<<stdArray[j].grade<<endl;
+        cout<<stdArray[j].stdId<<"     --   "<<stdArray[j].mark<<"    --     "<<stdArray[j].grade<<endl;
     }
 }
 
